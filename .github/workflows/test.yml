@@ -13,7 +13,6 @@ jobs:
   test:
     name: Test project and new commits via the regular and E2E tests
     runs-on: ubuntu-latest
-    container: golang:1.17
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
